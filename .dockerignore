@@ -1,0 +1,5 @@
+p
+python3-virtualenv
+__pycache__
+tests
+__*
