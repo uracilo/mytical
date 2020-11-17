@@ -31,3 +31,12 @@ Para utilizar el servidor Gunicorn con el puerto 8000, ejecuta el siguiente coma
 ```bash
 gunicorn -w 3 -b 0.0.0.0:8000 app:app
 ```
+
+
+## Ejecución de sonarque 
+
+Para utilizar el servidor Gunicorn con el puerto 8000, ejecuta el siguiente comando:
+
+```bash
+gunicorn -w 3 -b 0.0.0.0:8000 app:app
+```
