@@ -5,6 +5,8 @@ from flask_cors import CORS
 
 app = Flask(__name__)
 CORS(app)
+if __name__ == '__main__':
+      app.run(host='0.0.0.0', port=8080)
 
 # The service basepath has a short response just to ensure that healthchecks
 # sent to the service root will receive a healthy response.
